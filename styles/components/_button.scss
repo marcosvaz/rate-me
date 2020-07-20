@@ -1,0 +1,28 @@
+*[class^="button"] {
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 8px 0;
+  width: 160px;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.button--primary {
+  border: none;
+  box-shadow: 3px 3px 6px $buttons--secondary;
+  color: $text--primary;
+}
+
+.button--secondary {
+  background: none;
+  border: 1px solid $contrast;
+  box-shadow: 3px 3px 6px $details--salmon, inset 3px 3px 6px $details--salmon;
+  color: $contrast;
+  text-shadow: 3px 3px 6px $details--salmon;
+}

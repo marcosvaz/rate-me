@@ -1,17 +1,7 @@
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import Head from 'next/head';
+import Head from 'next/head'
 import '../styles/styles.scss';
 
-export default function Home() {
-  const router = useRouter();
-  
-  useEffect(() => {
-    setTimeout(() => {
-      router.push('/options');
-    }, 1500);
-  })
-
+export default function Options() {
   return (
     <div className="container">
       <Head>
@@ -23,7 +13,15 @@ export default function Home() {
       <div className="title">
         <i className="fas fa-user-circle title__icon"></i>
         <h1 className="title__text">RATE <span>ME</span></h1>
+        
+        <div className="login">
+          <div className="login__buttons">
+            <button className="button--primary">Entrar com senha</button>
+            <button className="button--secondary">Não possui cadastro?</button>
+          </div>
+        </div>
       </div>
+
     </div>
   )
 }

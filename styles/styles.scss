@@ -1,0 +1,36 @@
+@import './config/theme';
+
+.title {
+  align-items: center;
+  color: $text--primary;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-shadow: 3px 3px 6px $buttons--secondary;
+
+  &__icon {
+    margin-bottom: 15px;
+    font-size: 3em;
+  }
+
+  &__text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    letter-spacing: 10px;
+    margin: 0;
+
+    & span {
+      font-family: 'ForoSans-Bold', sans-serif;
+    }
+  }
+}
+
+.login__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+@import './components/button';
