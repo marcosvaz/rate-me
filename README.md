@@ -1,34 +1,38 @@
 <p align="center">
   <img src="./public/assets/Rate%20Me.svg" width="120" />
 </p>
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=feito%20por&message=Marcos%20Vaz&color=F0CA50&labelColor=081F27" alt="feito por Marcos Vaz" />
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=F0CA50&labelColor=081F27">
+</p>
 
-## Getting Started
+Projeto desenvolvido com o intuito de clonar a interface criada pela Ruth Siqueira, do aplicativo Rate Me (episódio "Queda Livre" de Black Mirror).  
+> Design: https://www.behance.net/gallery/100039461/Rate-Me-UI-Design
 
-First, run the development server:
+> Protótipo: https://xd.adobe.com/view/34887cd5-76ba-49a9-6233-adb688a6c33c-42b9/screen/81084573-753a-4c0b-bce1-aa9ed0993840/?fullscreen&hints=off
+
+## Como utilizar:
+
+Rode o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) com seu browser para ver o projeto.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Saiba mais
 
-## Learn More
+Para ler mais sobre Next.js, dê uma olhada nas seguintes fontes:
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) - aprenda sobre recursos do Next.js e API.
+- [Learn Next.js](https://nextjs.org/learn) - Um tutorial interativo de Next.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Você pode dar uma olhada no [repositório do GitHub do Next.js](https://github.com/vercel/next.js/) - seu feedback e contribuições serão bem vindos!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+A licença desse projeto pode ser consultada em [LICENSE](LICENSE.md).
